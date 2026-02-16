@@ -7,13 +7,17 @@ import "./styles.css";
 export default function App() {
   return (
     <>
+    <div className="min-h-screen flex flex-col">
       <div className="bg-[var(--muted)]!">
         <Navbar />
       </div>
-      <main className="container">
+      <main className="flex-1 flex flex-col justify-center">
         <Outlet />
       </main>
-      <Footer />
+      <div className="bg-[var(--muted)]">
+        <Footer />
+      </div>
+    </div>
     </>
   )
 }

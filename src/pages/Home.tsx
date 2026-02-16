@@ -6,7 +6,7 @@ export default function Home(){
                 <img className="bg-cover w-full h-full" src="./src/assets/hero.png" alt="Hero Image" />
             </div>
             <div className="px-[20px] flex flex-col justify-center py-10 xl:px-[160px]">
-                <h1 className="text-3xl text-center">EDITORIAL SCROLL</h1>
+                <h1 className="text-3xl text-center font-bold">EDITORIAL SCROLL</h1>
                 <div className="pt-10 flex gap-10">
                     <div className="flex items-center w-fit">
                         <h1 className="text-xl xl:text-5xl whitespace-nowrap">ON THE RUNWAY</h1>
@@ -61,10 +61,7 @@ export default function Home(){
                         </button>
                     </div>
                 </div>
-
-                <hr className="border-2 border-gray-300 my-8" />
-
-                
+            
             </div>
         </div>
         </>

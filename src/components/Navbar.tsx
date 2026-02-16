@@ -8,7 +8,7 @@ export default function Navbar() {
       <div className="flex justify-between min-h-[65px]">
         <nav className="desktopNav flex justify-between items-center px-[160px] w-full">
           <div>
-            <NavLink to="/mainboard" className="text-[16px] font-semibold 2xl:text-[24px]" end>HOME</NavLink>
+            <NavLink to="/" className="text-[16px] font-semibold xl:text-[24px]" end>HOME</NavLink>
           </div>
           
           <div>
@@ -16,8 +16,8 @@ export default function Navbar() {
           </div>
 
           <div>
-            <NavLink to="/grwmrr" className="text-[16px] font-semibold 2xl:text-[24px]">ABOUT US</NavLink>
-            <NavLink to="/contact" className="text-[16px] font-semibold 2xl:text-[24px]">CONTACT US</NavLink>
+            <NavLink to="/About" className="text-[16px] font-semibold xl:text-[24px]">ABOUT US</NavLink>
+            <NavLink to="/Contact" className="text-[16px] font-semibold xl:text-[24px]">CONTACT US</NavLink>
           </div>
         </nav>
       </div>

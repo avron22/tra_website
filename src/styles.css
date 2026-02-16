@@ -216,32 +216,3 @@ body {
   border-radius: 0.6rem;
 }
 
-
-
-
-.footer {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-
-  text-align: center;
-  color: var(--text);
-  font-size: 16px;
-}
-
-.footer .footerDetails{
-  display: flex;
-  flex-direction: column;
-
-}
-
-.footer .footerIcons{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-}
-
-.footer .footerContact{
-  display: flex;
-  flex-direction: column;
-}
